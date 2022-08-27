@@ -8,7 +8,9 @@ NeRF pipeline:
 Given a camera pose, generate rays by `ray casting`, then sample points in each ray by `ray sampling`, then embed the point coordinates by `positional encoding`, then feed into the MLP as `neural radiance field`, at last form the output maps from the outputs by `ray marching`.
 
 > Note: 
+> 
 > `ray casting` and `ray marching` here are not the exactly same as what we commonly refer to in computer graphics, which are commonly compared with ray tracing
+> 
 > the real forward pipeline is not so direct as described here, you can see `models/pipeline.py` for details
 
 ## Support Features
@@ -206,14 +208,14 @@ By using `python taste.py --config configs/helloworld_demo.txt` and then visuali
 <p>
 
 * advantages: laptop power facemask apple pear mouse cup glasses pen are all visible
-* disadvantages: since background's depth may be exceed the sampling region I set so it causes hardness to optimize
+* disadvantages: since background's depth may be exceed the sampling region I set so it causes hardness to optimize, since background's depth large then the sampling region I set is also large so it causes details hard to be sampled and it can be seen from thin things such as glasses feet
 
 </p>
 
 </details>
 
 ## Note
-Kudos to the authors for their amazing results:
+Kudos to the authors for their amazing results.
 ```bib
 @misc{mildenhall2020nerf,
     title={NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis},
