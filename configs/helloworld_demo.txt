@@ -1,0 +1,29 @@
+expname = helloworld_demo
+
+dataset_type = helloworld
+data_path = data/tiny_nerf_data.npz
+log_path = logs
+
+z_near = 2.0
+z_far = 6.0
+samples_num = 32
+samples_num_prime = 32
+x_freq_num = 5
+d_freq_num = 2
+x_freq_type = log
+d_freq_type = log
+width1 = 128
+depth1 = 3
+width2 = 128
+depth2 = 2
+width3 = 64
+depth3 = 1
+
+rays_num = 512
+learning_rate = 5e-4
+gamma = 0.99
+epochs = 100
+chunk_size = 512
+val_accelerate = False
+white_bkgd = False
+verbose = False

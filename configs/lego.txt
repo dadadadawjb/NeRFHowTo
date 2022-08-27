@@ -1,0 +1,29 @@
+expname = lego
+
+dataset_type = blender
+data_path = data/lego
+log_path = logs
+
+z_near = 2.0
+z_far = 6.0
+samples_num = 64
+samples_num_prime = 128
+x_freq_num = 10
+d_freq_num = 4
+x_freq_type = log
+d_freq_type = log
+width1 = 256
+depth1 = 5
+width2 = 256
+depth2 = 3
+width3 = 128
+depth3 = 1
+
+rays_num = 1024
+learning_rate = 5e-4
+gamma = 0.999
+epochs = 2000
+chunk_size = 2048
+val_accelerate = True
+white_bkgd = True
+verbose = False
