@@ -58,18 +58,18 @@ By using `python observe_dataset.py --config configs/helloworld_demo.txt`, you c
 
 ![demo-dataset](assets/demo_dataset.png)
 
-By using `python train.py --config configs/helloworld_demo.txt` and then visualize it, you can see the training process. And it only takes use of around *2GB* GPU memory and *30min* time to train, you can enjoy it easily.
+By using `python train.py --config configs/helloworld_demo.txt` and then visualizing it, you can see the training process. And it only takes use of around *2GB* GPU memory and *30min* time to train, you can enjoy it easily.
 
 ![demo-train](assets/demo_train.gif)
 
 ![demo-train-loss](assets/demo_train_loss.png)
 ![demo-val-psnr](assets/demo_val_psnr.png)
 
-By using `python test.py --config configs/helloworld_demo.txt` and then visualize it, you can see the testing dataset's rendering results. And it gets a result of around *24* psnr.
+By using `python test.py --config configs/helloworld_demo.txt` and then visualizing it, you can see the testing dataset's rendering results. And it gets a result of around *24* psnr.
 
 ![demo-test](assets/demo_test.gif)
 
-By using `python taste.py --config configs/helloworld_demo.txt` and then visualize them, you can play with different camera settings.
+By using `python taste.py --config configs/helloworld_demo.txt` and then visualizing them, you can play with different camera settings.
 
 ![demo-taste-surround-rgb](assets/demo_surround_rgb.gif)
 ![demo-taste-surround-d](assets/demo_surround_d.gif)
